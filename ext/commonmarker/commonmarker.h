@@ -5,8 +5,8 @@
 #define __MSXML_LIBRARY_DEFINED__
 #endif
 
-#include "cmark-gfm.h"
 #include "ruby.h"
+#include "cmark-gfm.h"
 #include "ruby/encoding.h"
 
 #define CSTR2SYM(s) (ID2SYM(rb_intern((s))))
